@@ -1,8 +1,22 @@
-# React + Vite
+# Projeto: Rede social de Pets
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="./src/assets/print.jpg" />
 
-Currently, two official plugins are available:
+Projeto criado no curso de React da Origamid. Consiste em uma rede social de cães, onde você se cadastra, realiza o login e realiza postagens com a foto do cão, nome, peso e idade, como também pode realizar comentários nas postagens.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Foram utilizadas as seguintes tecnologias:
+
+- React
+- Victory chart (para criação dos gráficos para as estatísticas)
+- React Router
+- API REST (fornecida pela Origamid, para realização de login, fazer postagens, fazer reset de senha e etc)
+- CustomHooks (useFetch, useForm, useMedia)
+- useContext API
+- Styled Components
+- useState
+- Validação de Token (para logins)
+- Rotas protegidas
+- Lazy e Suspense
+
+Deploy: <a href="">Clique aqui</a><br />
+Repositório: <a href="">Clique aqui</a>
