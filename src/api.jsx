@@ -1,5 +1,3 @@
-import { cache, use } from 'react';
-
 export const API_URL = 'https://dogsapi.origamid.dev/json';
 
 export function TOKEN_POST(body) {
@@ -78,10 +76,6 @@ export function PHOTOS_GET({ page, total, user }) {
 export function PHOTO_GET(id) {
   return {
     url: `${API_URL}/api/photo/${id}`,
-    // options: {
-    //   method: 'GET',
-    //   cache: 'no-store',
-    // },
   };
 }
 
@@ -133,6 +127,18 @@ export function PASSWORD_RESET(body) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify(body),
+    },
+  };
+}
+
+export function STATS_GET() {
+  return {
+    url: `${API_URL}/api/stats`,
+    options: {
+      method: 'GET',
+      headers: {
+        Authorization: 'Bearer ' + window.localStorage.getItem('token'),
+      },
     },
   };
 }
