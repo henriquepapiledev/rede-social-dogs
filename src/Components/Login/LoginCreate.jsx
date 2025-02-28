@@ -2,9 +2,9 @@ import Input from '../Forms/Input';
 import Button from '../Forms/Button';
 import Error from '../Helper/Error';
 import useForm from '../../Hooks/useForm';
-import { USER_POST } from '../../Api';
+import { USER_POST } from '../../Api/Api';
 import { useContext } from 'react';
-import { UserContext } from '../../UserContext';
+import { UserContext } from '../../Context/UserContext';
 import useFetch from '../../Hooks/useFetch';
 import Head from '../Helper/Head';
 

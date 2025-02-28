@@ -1,4 +1,4 @@
-import { PHOTO_DELETE } from '../../Api';
+import { PHOTO_DELETE } from '../../Api/Api';
 import useFetch from '../../Hooks/useFetch';
 import styles from './PhotoDelete.module.css';
 

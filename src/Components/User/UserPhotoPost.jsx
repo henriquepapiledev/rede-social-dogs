@@ -1,7 +1,7 @@
 import styles from './UserPhotoPost.module.css';
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { PHOTO_POST } from '../../Api';
+import { PHOTO_POST } from '../../Api/Api';
 import useForm from '../../Hooks/useForm';
 import useFetch from '../../Hooks/useFetch';
 import Error from '../Helper/Error';

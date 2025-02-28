@@ -1,7 +1,7 @@
 import styles from './Header.module.css';
 import { Link } from 'react-router-dom';
 import Dogs from '../Assets/dogs.svg?react';
-import { UserContext } from '../UserContext';
+import { UserContext } from '../Context/UserContext';
 import { useContext } from 'react';
 
 const Header = () => {

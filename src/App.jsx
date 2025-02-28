@@ -1,6 +1,6 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { UserStorage } from './UserContext';
+import { UserStorage } from './Context/UserContext';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Home from './Components/Home';

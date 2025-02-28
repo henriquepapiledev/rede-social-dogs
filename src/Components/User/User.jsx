@@ -4,7 +4,7 @@ import Feed from '../Feed/Feed';
 import UserPhotoPost from './UserPhotoPost';
 import UserStats from './UserStats';
 import { useContext } from 'react';
-import { UserContext } from '../../UserContext';
+import { UserContext } from '../../Context/UserContext';
 import NotFound from '../NotFound';
 import Head from '../Helper/Head';
 
