@@ -18,4 +18,4 @@ Projeto criado no curso de React da Origamid. Consiste em uma rede social de cã
 - Rotas protegidas
 - Lazy e Suspense
 
-Deploy: <a href="https://rede-social-dogs-chi.vercel.app">Clique aqui</a><br />
+Deploy: <a href="https://rede-social-dogs-chi.vercel.app" target="_blank">Clique aqui</a><br />
